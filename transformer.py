@@ -55,3 +55,4 @@ def image2video(filepath, outputfile, fps):
 if __name__ == '__main__':
     video2image("./mp4/transformer.mp4", "./images")
     image2video("./images", "./mp4/transformer2.mp4", 30)
+    print("test")
